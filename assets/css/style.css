@@ -70,15 +70,15 @@ h2 {
 }
 /*-----------------------------------Did-You-Know--------------------------------------*/
 .elps_right_did {
-    position: absolute;
-    bottom: 0%;
-    right: -5%;
-    border-radius: 100px;
-    width: 152px;
-    height: 152px;
-    background: #0bb89d;
-    filter: blur(100px);
-  }
+  position: absolute;
+  bottom: 0%;
+  right: -5%;
+  border-radius: 100px;
+  width: 152px;
+  height: 152px;
+  background: #0bb89d;
+  filter: blur(100px);
+}
 .space_did {
   margin-bottom: 120px;
   margin-top: 82px;
@@ -163,7 +163,86 @@ h2 {
   width: 97px;
   height: 115px;
 }
-@media (max-width: 1299.98px) {
+/*------------------------------------COMPATIBLE-------------------------------------*/
+.space_compatible {
+  margin-top: 146px;
+  margin-bottom: 142px;
+}
+.linkdin_icon {
+  width: 41px;
+  height: 40px;
+}
+.gap_icon {
+  margin-top: 60px;
+  gap: 104px;
+}
+.elps_leftt_compatible {
+  position: absolute;
+  top: 20%;
+  left: -5%;
+  border-radius: 100px;
+  width: 122px;
+  height: 122px;
+  background: #0bb89d;
+  filter: blur(100px);
+}
+/*-----------------------------------Mintelize-It---------------------------------------------*/
+.space_row {
+  margin-top: 60px;
+}
+.card_mint {
+  width: 100%;
+  max-width: 267px;
+  height: 560px;
+  padding: 32px 20px;
+  border-radius: 6px;
+  border: 1px solid #0bb89d33;
+  box-shadow: 0px 0px 22.9px 0px #0bb89d1f;
+  transition: all 350ms linear;
+}
+.card_mint:hover {
+  border: 1px solid #0bb89d;
+  border-bottom: 6px solid #0bb89d;
+  background-color: #011210;
+  box-shadow: 0px 0px 18.5px 0px #0bb89d4d;
+}
+.icon_mint {
+  transition: all 350ms linear;
+}
+.card_mint:hover .icon_mint rect {
+  fill-opacity: 1;
+}
+.card_mint:hover .icon_mint path {
+  fill: white !important;
+}
+.card_clock {
+  width: 209px;
+  height: 72px;
+  border-radius: 12px;
+  border: 1px solid #ffffff52;
+}
+.elps_leftt_compatible {
+  position: absolute;
+  top: 20%;
+  left: -5%;
+  border-radius: 100px;
+  width: 122px;
+  height: 122px;
+  background: #0bb89d;
+  filter: blur(100px);
+}
+@media (max-width: 1199.98px) {
+  .card_mint {
+    max-width: 300px;
+    height: 520px;
+  }
+  .card_clock {
+    width: 180px;
+    height: 50px;
+  }
+  .elps_right_did {
+    right: 0%;
+  }
   .card_pros {
     padding: 80px 0px;
   }
@@ -188,6 +267,29 @@ h2 {
   }
 }
 @media (max-width: 1023.98px) {
+  .elps_leftt_compatible {
+    left: 0%;
+  }
+  .card_mint {
+    max-width: 335px;
+    height: 457px;
+  }
+  .card_clock {
+    width: 179px;
+    height: 53px;
+  }
+  .space_compatible {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+  .linkdin_icon {
+    width: 31px;
+    height: 35px;
+  }
+  .gap_icon {
+    margin-top: 10px;
+    gap: 60px;
+  }
   .pros_icon_one {
     width: 60px;
     height: 60px;
@@ -270,6 +372,25 @@ h2 {
   }
 }
 @media (max-width: 575.98px) {
+  .elps_right_did {
+    right: 0%;
+  }
+  .card_mint {
+    height: 310px;
+    max-width: 320px;
+  }
+  .space_compatible {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  .linkdin_icon {
+    width: 31px;
+    height: 30px;
+  }
+  .gap_icon {
+    margin-top: 10px;
+    gap: 0px;
+  }
   .card_pros {
     width: 100%;
     max-width: 1340px;
