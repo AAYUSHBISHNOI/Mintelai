@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap demo</title>
+    <title>Mintel-ai</title>
     <!-----------Bootstrap-link------------>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -28,32 +28,34 @@
       <div class="elps_left_hdr"></div>
       <!------------Navbar--------------------->
       <div class="container">
-        <div class="space_logo">
-          <a href="/"
-            ><img
-              class="nav_logo"
-              src="./assets/images/svg/header_logo.svg"
-              alt="header-logo"
-          /></a>
-        </div>
+        <a href="/"
+          ><img
+            class="nav_logo"
+            src="./assets/images/svg/header_logo.svg"
+            alt="header-logo"
+        /></a>
       </div>
       <!------------Header--------------------------->
       <div class="container">
         <div
-          class="d-flex flex-column justify-content-center align-items-center text-center space_header"
+          class="space_header d-flex flex-column justify-content-center align-items-center"
         >
-          <h1 class="fw-bold fs_4xl lh_120 text-white mxw_hdr mb-2">
+          <h1 class="fw-bold text-center mxw_hdr fs_4xl lh_120 text-white mb-2">
             Stop searching start closing
           </h1>
-          <p class="mb-0 fw-bold fs_lg lh_120 text-white mt-1 mt-md-2 mt-lg-4">
-            helping salespeople connect to their key decision makers,
+          <p
+            class="mb-0 fw-bold text-center fs_lg lh_120 text-white mt-1 mt-md-2 mt-lg-4"
+          >
+            Helping salespeople connect to their key decision makers,
             automatically.
           </p>
-          <button class="fw-normal fs_sm text-white lh_120 btn_erly">
-            Early Access
-          </button>
+          <li class="d-flex justify-content-center">
+            <a href="" class="fw-normal fs_sm text-white lh_120 btn_erly">
+              Early Access</a
+            >
+          </li>
           <img
-            class="img__hdtr_main mt-4 mt-lg-5"
+            class="hero_main_img mt-4 mt-lg-5"
             src="./assets/images/webp/header_main_img.webp"
             alt="main-img"
           />
@@ -67,16 +69,20 @@
         <div
           class="d-flex flex-column justify-content-center text-center align-items-center"
         >
-          <h2 class="text-white fw-bold fs_3xl lh_120 mb-1">Did you know?</h2>
+          <h2 class="text-white fw-bold fs_3xl lh_120 mb-2">Did you know?</h2>
           <p class="mb-0 text-white fw-bold fs_lg lh_120 mt-2">
             Salespeople suffer, instead of selling
           </p>
         </div>
         <div
-          class="row justify-content-center justify-content-lg-between align-items-center p-0 mx-xl-5 space_row"
+          class="row row_height justify-content-center justify-content-xl-between align-items-center p-0 mx-xl-5"
         >
-          <div class="col-md-6 col-lg-4 d-flex justify-content-center p-0">
-            <div class="card_did">
+          <div
+            class="col-md-6 cursor_pointer col-lg-4 d-flex justify-content-center p-0"
+          >
+            <div
+              class="card_did d-flex flex-column align-items-center text-center justify-content-center"
+            >
               <span class="mb-2">
                 <svg
                   class="card_icon_did"
@@ -112,15 +118,17 @@
                   />
                 </svg>
               </span>
-              <p class="mb-0 mt-3 text-white lh_130 fw-semibold">
+              <p class="mb-0 mt-3 text-white lh_120 fw-semibold">
                 Daily, 2/8 hours are spent searching for decision makers.
               </p>
             </div>
           </div>
           <div
-            class="col-md-6 col-lg-4 d-flex justify-content-center mt-3 mt-md-0 p-0"
+            class="col-md-6 cursor_pointer col-lg-4 d-flex justify-content-center mt-3 mt-md-0 p-0"
           >
-            <div class="card_did">
+            <div
+              class="card_did d-flex flex-column align-items-center text-center justify-content-center"
+            >
               <span class="mb-2">
                 <svg
                   class="card_icon_did"
@@ -179,16 +187,18 @@
                   />
                 </svg>
               </span>
-              <p class="mb-0 mt-3 text-white lh_130 fw-semibold">
+              <p class="mb-0 mt-3 text-white lh_120 fw-semibold">
                 Over 90% report low accuracy in contact data, leading to missed
                 opportunities.
               </p>
             </div>
           </div>
           <div
-            class="col-md-6 col-lg-4 d-flex justify-content-center mt-3 mt-lg-0 p-0"
+            class="col-md-6 cursor_pointer col-lg-4 d-flex justify-content-center mt-3 mt-lg-0 p-0"
           >
-            <div class="card_did">
+            <div
+              class="card_did d-flex flex-column align-items-center text-center justify-content-center"
+            >
               <span class="mb-2">
                 <svg
                   class="card_icon_did"
@@ -212,7 +222,7 @@
                   />
                 </svg>
               </span>
-              <p class="mb-0 mt-3 text-white lh_130 fw-semibold">
+              <p class="mb-0 mt-3 text-white lh_120 fw-semibold">
                 Lost productivity costs $18,000 per salesperson annually.
               </p>
             </div>
@@ -222,7 +232,7 @@
     </section>
     <!--------------------Prospecting----------------------->
     <section>
-      <div class="container">
+      <div class="d-flex justify-content-center align-items-center">
         <div class="card_pros">
           <div
             class="d-flex mb-2 pb-1 flex-column justify-content-around text-center align-items-center"
@@ -239,200 +249,56 @@
           <div
             class="row mt-2 mt-md-5 p-md-0 position-relative justify-content-center"
           >
-            <span class="d-none d-lg-block">
-              <svg
-                class="position-absolute arrow_two_pros"
-                width="44"
-                height="21"
-                viewBox="0 0 44 21"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M1.28153 11.483C0.193038 11.2797 0.193038 9.72035 1.28153 9.517L24.6448 5.15251C25.1181 5.06409 25.4612 4.65098 25.4612 4.16951V1.6968C25.4612 0.934934 26.2791 0.4529 26.9456 0.821964L42.8437 9.62516C43.5311 10.0058 43.5311 10.9942 42.8437 11.3748L26.9456 20.178C26.2791 20.5471 25.4612 20.0651 25.4612 19.3032V16.8305C25.4612 16.349 25.1181 15.9359 24.6448 15.8475L1.28153 11.483Z"
-                  fill="#0BB89D"
-                />
-              </svg>
-            </span>
-            <span class="d-none d-lg-block">
-              <svg
-                class="position-absolute arrow_one_pros"
-                width="44"
-                height="21"
-                viewBox="0 0 44 21"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M1.63699 11.483C0.548506 11.2797 0.548506 9.72035 1.63699 9.517L25.0003 5.15251C25.4735 5.06409 25.8166 4.65098 25.8166 4.16951V1.6968C25.8166 0.934934 26.6345 0.4529 27.3011 0.821964L43.1991 9.62516C43.8866 10.0058 43.8866 10.9942 43.1991 11.3748L27.3011 20.178C26.6345 20.5471 25.8166 20.0651 25.8166 19.3032V16.8305C25.8166 16.349 25.4735 15.9359 25.0003 15.8475L1.63699 11.483Z"
-                  fill="#0BB89D"
-                />
-              </svg>
-            </span>
+            <img
+              class="d-none d-lg-block position-absolute arrow_two_pros"
+              src="./assets/images/svg/prospecting_arrow.svg"
+              alt="arrow-prospecting"
+            />
+            <img
+              class="position-absolute arrow_one_pros d-none d-lg-block"
+              src="./assets/images/svg/prospecting_arrow.svg"
+              alt="prospecting-arrow"
+            />
             <div
               class="col-md-6 col-lg-4 p-md-0 d-flex flex-column justify-content-center align-items-center text-center"
             >
-              <span>
-                <svg
-                  class="pros_icon_one"
-                  width="167"
-                  height="120"
-                  viewBox="0 0 167 120"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M131.034 35C121.175 35 112.281 39.04 105.882 45.56C99.4839 39.08 90.5903 35 80.7309 35C75.3385 35 70.2277 36.24 65.64 38.44V35C65.64 15.72 49.8248 0 30.4279 0H0.246094V30C0.246094 49.28 16.0614 65 35.4582 65H45.5188V120H65.64V70C65.64 61.72 72.4008 55 80.7309 55C89.0611 55 95.8219 61.72 95.8219 70V120H115.943V70C115.943 61.72 122.704 55 131.034 55C139.364 55 146.125 61.72 146.125 70V120H166.246V70C166.246 50.72 150.431 35 131.034 35ZM20.3673 30V20H30.4279C38.7581 20 45.5188 26.72 45.5188 35V45H35.4582C27.128 45 20.3673 38.28 20.3673 30Z"
-                    fill="#0BB89D"
-                  />
-                </svg>
-              </span>
+              <img
+                class="pros_icon_one"
+                src="./assets/images/svg/prospecting_icon_one.svg"
+                alt="pros-icon-one"
+              />
               <p
-                class="mb-0 fw-semibold lh_120 text-black fs_lg mwx_mintel mt-md-4 pt-2"
+                class="mb-0 fw-semibold lh_120 clr_grey fs_lg mwx_mintel mt-md-4 pt-2"
               >
                 Mintel.ai learns & understands your Ideal customer profile from
                 your CRM, Website Visitors & Intent Sources
               </p>
             </div>
             <div
-              class="col-md-6 col-lg-4 mt-2 mt-md-0 p-md-0 d-flex flex-column justify-content-center align-items-center text-center"
+              class="col-md-6 mb-4 col-lg-4 mt-2 mt-md-0 p-md-0 d-flex flex-column justify-content-center align-items-center text-center"
             >
-              <span>
-                <svg
-                  class="pros_icon_two"
-                  width="104"
-                  height="122"
-                  viewBox="0 0 104 122"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M89.9144 43.7403C93.7507 40.755 94.4325 35.2353 91.4373 31.4117C88.442 27.5881 82.9038 26.9086 79.0674 29.8939C75.2311 32.8792 74.5493 38.3989 77.5446 42.2225C80.5399 46.0461 86.078 46.7257 89.9144 43.7403Z"
-                    fill="#0BB89D"
-                  />
-                  <path
-                    d="M82.875 48.5601L83.5451 50.501H84.4941H85.4432L86.1133 48.5601H84.4941H82.875Z"
-                    fill="#0BB89D"
-                  />
-                  <path
-                    d="M92.2748 48.5391V48.5112H91.2321L87.7979 55.2255L89.5345 56.4239L86.9447 61.0416L85.5683 51.1328H84.4927H83.4172L82.0405 61.0416L79.4509 56.4241L81.1875 55.2257L77.7531 48.5114H77.2614C71.5945 48.5114 66.9844 53.1063 66.9844 58.7545V68.9999H73.3086V58.7545C73.3086 57.4727 73.9355 56.343 74.8897 55.623V68.9999H93.77V55.4005C94.9081 56.0928 95.6768 57.3309 95.6768 58.7543V68.9997H102.001V58.7543C102.001 53.2915 97.6851 48.827 92.2748 48.5391Z"
-                    fill="#0BB89D"
-                  />
-                  <path
-                    d="M25.0586 43.7404C28.8949 40.755 29.5767 35.2352 26.5815 31.4116C23.5863 27.5879 18.0482 26.9084 14.2119 29.8938C10.3756 32.8792 9.69375 38.399 12.689 42.2226C15.6842 46.0462 21.2223 46.7258 25.0586 43.7404Z"
-                    fill="#0BB89D"
-                  />
-                  <path
-                    d="M18.0195 48.5601L18.6896 50.501H19.6387H20.5877L21.2578 48.5601H19.6387H18.0195Z"
-                    fill="#0BB89D"
-                  />
-                  <path
-                    d="M27.4193 48.5391V48.5112H26.3766L22.9424 55.2255L24.6791 56.4239L22.0893 61.0416L20.7128 51.1328H19.6373H18.5617L17.185 61.0416L14.5954 56.4241L16.3321 55.2257L12.8977 48.5114H12.4059C6.73901 48.5114 2.12891 53.1063 2.12891 58.7545V68.9999H8.45314V58.7545C8.45314 57.4727 9.08004 56.343 10.0342 55.623V68.9999H28.9145V55.4005C30.0526 56.0928 30.8214 57.3309 30.8214 58.7543V68.9997H37.1456V58.7543C37.1456 53.2915 32.8296 48.827 27.4193 48.5391Z"
-                    fill="#0BB89D"
-                  />
-                  <path
-                    d="M58.2945 36.0858C63.2933 32.1958 64.1818 25.0035 60.2788 20.0213C56.3759 15.039 49.1595 14.1536 44.1606 18.0435C39.1618 21.9335 38.2733 29.1258 42.1763 34.108C46.0792 39.0903 53.2956 39.9757 58.2945 36.0858Z"
-                    fill="#0BB89D"
-                  />
-                  <path
-                    d="M49.1172 42.3667L49.9903 44.8958H51.2269H52.4636L53.3367 42.3667H51.2269H49.1172Z"
-                    fill="#0BB89D"
-                  />
-                  <path
-                    d="M61.3642 42.3391V42.3027H60.0055L55.5307 51.0516L57.7936 52.6131L54.419 58.6301L52.6255 45.7187H51.224H49.8225L48.0287 58.6301L44.6544 52.6134L46.9172 51.0519L42.4421 42.303H41.8013C34.4172 42.303 28.4102 48.2903 28.4102 55.65V68.9999H36.6508V55.65C36.6508 53.9797 37.4677 52.5077 38.7109 51.5696V68.9999H63.3125V51.2797C64.7954 52.1817 65.7972 53.7949 65.7972 55.6497V68.9997H74.0378V55.6497C74.0378 48.5316 68.414 42.7142 61.3642 42.3391Z"
-                    fill="#0BB89D"
-                  />
-                  <path
-                    d="M11.6069 100.483H5.92116C3.76452 100.483 2 98.7243 2 96.5749V90.9081C2 88.7586 3.76452 87 5.92116 87H11.6069C13.7635 87 15.528 88.7586 15.528 90.9081V96.5749C15.528 98.7243 13.7635 100.483 11.6069 100.483ZM5.92116 89.6966C5.25457 89.6966 4.66639 90.2437 4.66639 90.9472V96.614C4.66639 97.2783 5.21535 97.8645 5.92116 97.8645H11.6069C12.2734 97.8645 12.8616 97.3174 12.8616 96.614V90.9472C12.8616 90.2828 12.3127 89.6966 11.6069 89.6966H5.92116Z"
-                    fill="#0BB89D"
-                    stroke="#0BB89D"
-                    stroke-width="1.2"
-                  />
-                  <path
-                    d="M93.8764 100.483H88.1907C86.0341 100.483 84.2695 98.7243 84.2695 96.5749V90.9081C84.2695 88.7586 86.0341 87 88.1907 87H93.8764C96.033 87 97.7975 88.7586 97.7975 90.9081V96.5749C97.7975 98.7243 96.033 100.483 93.8764 100.483ZM88.1907 89.6966C87.5241 89.6966 86.9359 90.2437 86.9359 90.9472V96.614C86.9359 97.2783 87.4849 97.8645 88.1907 97.8645H93.8764C94.543 97.8645 95.1312 97.3174 95.1312 96.614V90.9472C95.1312 90.2828 94.5822 89.6966 93.8764 89.6966H88.1907Z"
-                    fill="#0BB89D"
-                    stroke="#0BB89D"
-                    stroke-width="1.2"
-                  />
-                  <path
-                    d="M63.6491 91H32.6587C31.7863 91 31.0977 90.7134 31.0977 89.9924C31.0977 89.2715 31.7863 89 32.6587 89H63.6491C64.5214 89 65.2101 89.2715 65.2101 89.9924C65.2101 90.6755 64.5214 91 63.6491 91Z"
-                    fill="#0BB89D"
-                    stroke="#0BB89D"
-                    stroke-width="1.2"
-                  />
-                  <path
-                    d="M52.161 98H32.1078C31.5433 98 31.0977 97.7134 31.0977 96.9924C31.0977 96.2715 31.5433 96 32.1078 96H52.161C52.7255 96 53.1711 96.2715 53.1711 96.9924C53.1711 97.6755 52.7255 98 52.161 98Z"
-                    fill="#0BB89D"
-                    stroke="#0BB89D"
-                    stroke-width="1.2"
-                  />
-                  <path
-                    d="M11.6069 120.483H5.92116C3.76452 120.483 2 118.724 2 116.575V110.908C2 108.759 3.76452 107 5.92116 107H11.6069C13.7635 107 15.528 108.759 15.528 110.908V116.575C15.528 118.724 13.7635 120.483 11.6069 120.483ZM5.92116 109.697C5.25457 109.697 4.66639 110.244 4.66639 110.947V116.614C4.66639 117.278 5.21535 117.865 5.92116 117.865H11.6069C12.2734 117.865 12.8616 117.317 12.8616 116.614V110.947C12.8616 110.283 12.3127 109.697 11.6069 109.697H5.92116Z"
-                    fill="#0BB89D"
-                    stroke="#0BB89D"
-                    stroke-width="1.2"
-                  />
-                  <path
-                    d="M93.8764 120.483H88.1907C86.0341 120.483 84.2695 118.724 84.2695 116.575V110.908C84.2695 108.759 86.0341 107 88.1907 107H93.8764C96.033 107 97.7975 108.759 97.7975 110.908V116.575C97.7975 118.724 96.033 120.483 93.8764 120.483ZM88.1907 109.697C87.5241 109.697 86.9359 110.244 86.9359 110.947V116.614C86.9359 117.278 87.4849 117.865 88.1907 117.865H93.8764C94.543 117.865 95.1312 117.317 95.1312 116.614V110.947C95.1312 110.283 94.5822 109.697 93.8764 109.697H88.1907Z"
-                    fill="#0BB89D"
-                    stroke="#0BB89D"
-                    stroke-width="1.2"
-                  />
-                  <path
-                    d="M63.6491 111H32.6587C31.7863 111 31.0977 110.713 31.0977 109.992C31.0977 109.271 31.7863 109 32.6587 109H63.6491C64.5214 109 65.2101 109.271 65.2101 109.992C65.2101 110.675 64.5214 111 63.6491 111Z"
-                    fill="#0BB89D"
-                    stroke="#0BB89D"
-                    stroke-width="1.2"
-                  />
-                  <path
-                    d="M52.161 118H32.1078C31.5433 118 31.0977 117.713 31.0977 116.992C31.0977 116.271 31.5433 116 32.1078 116H52.161C52.7255 116 53.1711 116.271 53.1711 116.992C53.1711 117.675 52.7255 118 52.161 118Z"
-                    fill="#0BB89D"
-                    stroke="#0BB89D"
-                    stroke-width="1.2"
-                  />
-                </svg>
-              </span>
+              <img
+                class="pros_icon_two"
+                src="./assets/images/svg/prospecting_icon_two.svg"
+                alt="pros-icon-two"
+              />
               <p
-                class="mb-0 fw-semibold lh_120 text-black fs_lg mwx_mintel mt-md-4 pt-2"
+                class="mb-0 fw-semibold lh_120 clr_grey fs_lg mwx_mintel mt-md-4 pt-2"
               >
                 Generates list of contacts based on your ICP with the most
                 accurate contact information.
               </p>
             </div>
             <div
-              class="col-md-6 col-lg-4 mt-2 mt-lg-0 p-md-0 d-flex flex-column justify-content-center align-items-center text-center"
+              class="col-md-6 col-lg-4 mt-2 mt-lg-0 p-md-0 d-flex flex-column justify-content-start mt-xl-2 align-items-center text-center"
             >
-              <span>
-                <svg
-                  class="pros_icon_three"
-                  width="98"
-                  height="115"
-                  viewBox="0 0 98 115"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <g clip-path="url(#clip0_1078_3403)">
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M52.8857 1.70652V20.2344C52.8857 21.1772 52.1219 21.9409 51.1792 21.9409C50.2364 21.9409 49.4727 21.1772 49.4727 20.2344V1.70652C49.4727 0.763743 50.2364 0 51.1792 0C52.1219 0 52.8857 0.763743 52.8857 1.70652ZM51.2847 78.6235C37.6849 78.6235 26.6602 67.5988 26.6602 53.999C26.6754 40.4059 37.6916 29.3897 51.2847 29.3745C64.8844 29.3745 75.9092 40.3993 75.9092 53.999C75.9092 67.5988 64.8844 78.6235 51.2847 78.6235ZM43.213 48.4986C43.7358 52.5515 47.1984 55.5779 51.2847 55.5551C53.8444 55.5437 55.9366 57.5959 55.9738 60.1566C56.0109 62.7164 53.9797 64.8286 51.4199 64.8914C51.2942 64.8628 51.1666 64.8476 51.038 64.8476C50.9485 64.8486 50.859 64.8552 50.7714 64.8695C48.4021 64.6095 46.606 62.6107 46.6003 60.2271C46.6003 59.2738 45.8271 58.5005 44.8738 58.5005C43.9206 58.5005 43.1473 59.2738 43.1473 60.2271C43.1711 63.9153 45.6633 67.1303 49.2296 68.0721V70.2109C49.2296 71.1537 49.9934 71.9175 50.9361 71.9175C51.8789 71.9175 52.6426 71.1537 52.6426 70.2109V68.1768C56.7585 67.4493 59.6401 63.7029 59.2868 59.5385C58.9335 55.3732 55.4624 52.1659 51.2828 52.142C48.7049 52.1459 46.6127 50.0584 46.6098 47.4815C46.606 44.9036 48.6935 42.8114 51.2713 42.8086C53.8492 42.8057 55.9405 44.8932 55.9433 47.471C55.9433 48.4024 56.6985 49.1575 57.6298 49.1575C58.5612 49.1575 59.3164 48.4024 59.3164 47.471C59.3411 43.5428 56.5147 40.1764 52.6426 39.5212V37.5433C52.6426 36.6005 51.8789 35.8368 50.9361 35.8368C49.9934 35.8368 49.2296 36.6005 49.2296 37.5433V39.625C45.2709 40.6392 42.6902 44.4465 43.213 48.4986ZM90.7652 90.3845C90.7794 90.3778 90.7928 90.3712 90.8052 90.3645C93.2211 89.1408 96.1514 89.6274 98.0436 91.5644L64.8836 113.014C60.5926 114.955 55.7987 115.49 51.1858 114.545L27.2507 107.827C24.6186 107.083 21.8007 107.392 19.3923 108.687L16.9688 109.985L17.5335 89.4674C24.1243 85.0269 32.6169 84.5488 39.6649 88.2209L41.1 88.9637C43.575 90.2426 46.3062 90.9483 49.0917 91.0283L63.1952 91.4158C67.3834 91.5377 70.905 94.5965 71.6116 98.7266L50.3001 98.14C49.3583 98.1143 48.5727 98.8571 48.5469 99.7999C48.5212 100.743 49.264 101.527 50.2068 101.553L73.3914 102.191H73.44C74.3637 102.191 75.1199 101.455 75.1446 100.531C75.1684 99.638 75.0941 98.7457 74.9237 97.8686L90.7652 90.3845ZM1.39062 113.548L2.2315 83.0225L14.2857 83.3548L13.4448 113.881L1.39062 113.548ZM67.5146 20.2344V11.458C67.5146 10.5152 66.7509 9.75146 65.8081 9.75146C64.8653 9.75146 64.1016 10.5152 64.1016 11.458V20.2344C64.1016 21.1771 64.8653 21.9409 65.8081 21.9409C66.7509 21.9409 67.5146 21.1771 67.5146 20.2344ZM38.2568 11.458V20.2344C38.2568 21.1771 37.493 21.9409 36.5503 21.9409C35.6075 21.9409 34.8438 21.1771 34.8438 20.2344V11.458C34.8438 10.5152 35.6075 9.75146 36.5503 9.75146C37.493 9.75146 38.2568 10.5152 38.2568 11.458Z"
-                      fill="#0BB89D"
-                    />
-                  </g>
-                  <defs>
-                    <clipPath id="clip0_1078_3403">
-                      <rect
-                        width="97"
-                        height="115"
-                        fill="white"
-                        transform="translate(0.898438)"
-                      />
-                    </clipPath>
-                  </defs>
-                </svg>
-              </span>
+              <img
+                class="pros_icon_three"
+                src="./assets/images/svg/prospecting_icon_three.svg"
+                alt="pros-icon-three"
+              />
               <p
-                class="mb-0 fw-semibold lh_120 text-black fs_lg mwx_mintel mt-md-4 pt-2"
+                class="mb-0 fw-semibold lh_120 clr_grey fs_lg mwx_mintel mt-md-4 pt-2"
               >
                 Provides minty fresh, qualified leads daily to your salespeople
               </p>
@@ -451,120 +317,27 @@
           <h2 class="mb-0 text-white fs_3xl lh_120 fw-bold">COMPATIBLE WITH</h2>
           <div class="d-md-flex gap_icon">
             <div class="d-flex align-items-center">
-              <span>
-                <svg
-                  class="linkdin_icon"
-                  width="41"
-                  height="41"
-                  viewBox="0 0 41 41"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <rect y="0.5" width="41" height="40" rx="2" fill="white" />
-                  <g clip-path="url(#clip0_1078_3537)">
-                    <path
-                      d="M36.9889 37.5001L36.9974 37.4987V25.0292C36.9974 18.9291 35.6841 14.23 28.5526 14.23C25.1243 14.23 22.8236 16.1113 21.8844 17.8949H21.7852V14.7995H15.0234V37.4987H22.0643V26.2589C22.0643 23.2995 22.6253 20.4378 26.2902 20.4378C29.9013 20.4378 29.9551 23.8151 29.9551 26.4487V37.5001H36.9889Z"
-                      fill="#0090DB"
-                    />
-                    <path
-                      d="M3.5625 14.8008H10.6118V37.5H3.5625V14.8008Z"
-                      fill="#0090DB"
-                    />
-                    <path
-                      d="M7.08283 3.5C4.82892 3.5 3 5.32892 3 7.58283C3 9.83675 4.82892 11.7039 7.08283 11.7039C9.33675 11.7039 11.1657 9.83675 11.1657 7.58283C11.1642 5.32892 9.33533 3.5 7.08283 3.5Z"
-                      fill="#0090DB"
-                    />
-                  </g>
-                  <defs>
-                    <clipPath id="clip0_1078_3537">
-                      <rect
-                        width="34"
-                        height="34"
-                        fill="white"
-                        transform="translate(3 3.5)"
-                      />
-                    </clipPath>
-                  </defs>
-                </svg>
-              </span>
+              <img
+                class="linkdin_icon"
+                src="./assets/images/svg/compatible_icon.svg"
+                alt="linkdin-icon"
+              />
               <p class="mb-0 fw-bold text-white lh_120 fs_2xl">Recruiter</p>
             </div>
             <div class="d-flex mt-2 align-items-center">
               <p class="mb-0 fw-bold text-white lh_120 fs_2xl">Linked</p>
-              <span>
-                <svg
-                  class="linkdin_icon"
-                  width="41"
-                  height="41"
-                  viewBox="0 0 41 41"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <rect y="0.5" width="41" height="40" rx="2" fill="white" />
-                  <g clip-path="url(#clip0_1078_3537)">
-                    <path
-                      d="M36.9889 37.5001L36.9974 37.4987V25.0292C36.9974 18.9291 35.6841 14.23 28.5526 14.23C25.1243 14.23 22.8236 16.1113 21.8844 17.8949H21.7852V14.7995H15.0234V37.4987H22.0643V26.2589C22.0643 23.2995 22.6253 20.4378 26.2902 20.4378C29.9013 20.4378 29.9551 23.8151 29.9551 26.4487V37.5001H36.9889Z"
-                      fill="#0090DB"
-                    />
-                    <path
-                      d="M3.5625 14.8008H10.6118V37.5H3.5625V14.8008Z"
-                      fill="#0090DB"
-                    />
-                    <path
-                      d="M7.08283 3.5C4.82892 3.5 3 5.32892 3 7.58283C3 9.83675 4.82892 11.7039 7.08283 11.7039C9.33675 11.7039 11.1657 9.83675 11.1657 7.58283C11.1642 5.32892 9.33533 3.5 7.08283 3.5Z"
-                      fill="#0090DB"
-                    />
-                  </g>
-                  <defs>
-                    <clipPath id="clip0_1078_3537">
-                      <rect
-                        width="34"
-                        height="34"
-                        fill="white"
-                        transform="translate(3 3.5)"
-                      />
-                    </clipPath>
-                  </defs>
-                </svg>
-              </span>
+              <img
+                class="linkdin_icon"
+                src="./assets/images/svg/compatible_icon.svg"
+                alt="linkdin-icon"
+              />
             </div>
             <div class="d-flex mt-2 align-items-center">
-              <span>
-                <svg
-                  class="linkdin_icon"
-                  width="41"
-                  height="41"
-                  viewBox="0 0 41 41"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <rect y="0.5" width="41" height="40" rx="2" fill="white" />
-                  <g clip-path="url(#clip0_1078_3537)">
-                    <path
-                      d="M36.9889 37.5001L36.9974 37.4987V25.0292C36.9974 18.9291 35.6841 14.23 28.5526 14.23C25.1243 14.23 22.8236 16.1113 21.8844 17.8949H21.7852V14.7995H15.0234V37.4987H22.0643V26.2589C22.0643 23.2995 22.6253 20.4378 26.2902 20.4378C29.9013 20.4378 29.9551 23.8151 29.9551 26.4487V37.5001H36.9889Z"
-                      fill="#0090DB"
-                    />
-                    <path
-                      d="M3.5625 14.8008H10.6118V37.5H3.5625V14.8008Z"
-                      fill="#0090DB"
-                    />
-                    <path
-                      d="M7.08283 3.5C4.82892 3.5 3 5.32892 3 7.58283C3 9.83675 4.82892 11.7039 7.08283 11.7039C9.33675 11.7039 11.1657 9.83675 11.1657 7.58283C11.1642 5.32892 9.33533 3.5 7.08283 3.5Z"
-                      fill="#0090DB"
-                    />
-                  </g>
-                  <defs>
-                    <clipPath id="clip0_1078_3537">
-                      <rect
-                        width="34"
-                        height="34"
-                        fill="white"
-                        transform="translate(3 3.5)"
-                      />
-                    </clipPath>
-                  </defs>
-                </svg>
-              </span>
+              <img
+                class="linkdin_icon"
+                src="./assets/images/svg/compatible_icon.svg"
+                alt="linkdin-icon"
+              />
               <p class="mb-0 fw-bold text-white lh_120 fs_2xl">
                 Sales Navigator
               </p>
@@ -876,57 +649,254 @@
             One-click install on any crm & sep
           </h2>
         </div>
-        <div class="row">
-          <div class="col-md-2">
+        <div class="row mx-xl-5 justify-content-center space_row p-xl-0">
+          <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-xl-0">
             <div
-              class="card_one d-flex justify-content-center align-items-center"
+              class="card_one gap-3 d-flex justify-content-center align-items-center"
             >
-              <span>
-                <svg
-                  width="36"
-                  height="36"
-                  viewBox="0 0 36 36"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                >
-                  <rect
-                    width="36"
-                    height="36"
-                    fill="url(#pattern0_1078_3579)"
-                  />
-                  <defs>
-                    <pattern
-                      id="pattern0_1078_3579"
-                      patternContentUnits="objectBoundingBox"
-                      width="1"
-                      height="1"
-                    >
-                      <use
-                        xlink:href="#image0_1078_3579"
-                        transform="translate(-0.411488 -0.0127119) scale(0.000474733)"
-                      />
-                    </pattern>
-                    <image
-                      id="image0_1078_3579"
-                      width="3840"
-                      height="2160"
-                      xlink:href="data:image/png;base64,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wIAAgwADAgwCDCDAIMCAAIMAAwIMCDAgwCDAgAADAgwIMAgwIMCAAAMCDAIMCDAIMIAAgwADAgwCDAgwIMCAAIMAAwIMCDAgwCDAgAADAgwIMAgwIMAgwAACDAIMCDAIMCDAgAADAgwCDAgwIMCAAIMAAwIMCDAgwCDAgACDAPs3AwgwCDAgwCDAgAADAgwIMAgwIMCAAAMCDAIMCDAgwIAAgwADAgwIMCDAIMCAAIMAAwIMCDAgwCDAgAADAgwIMAgwIMCAAAMCDAIMCDAgwIAAgwADAgwCDAgwIMCAAIMAAwIMCDAgwCDAgAADAgwIMAgwIMCAAAMCDAIMCDAIMIAAgwADAgwCDAgwIMCAAIMAAwIMCDAgwCDAgAADAgwIMAgwIMAgwAACDAIMCDAIMCDAgAADAgwCDAgwIMCAAIMAAwIMCDAgwCDAgACDAAMIMAgwIMAgwIAAAwIMCDAIMCDAgAADAgwCDAgwIMCAAIMAAwIMAgwgwCDAgACDAAMCDAgwIMAgwIAAAwIMCDAIMCDAgAADAgwCDAgwCDCAAIMAAwIMAgwIMCDAgACDAAMCDAgwIMAgwIAAAwIMCDAIMCDAIMAAAgwCDAgwCDAgwIAAAwIMAgwIMCDAgACDAAMCDAgwIMAgwIAAgwADCDAIMCDAIMCAAAMCDAgwCDAgwIAAAwIMAgwIMCDAgACDAAMCDAgwIMAgwIAAgwADAgwIMCDAIMCAAAMCDAgwCDAgwIAAAwIMAgwIMCDAgACDAAMCDAIMCDAgwIAAgwADAgwIMCDAIMCAAAMCDAgwCDAgwIAAAwIMAgwIMAgwgACDAAMCDAIMCDAgwIAAgwADAgwIMCDAIMCAAAMCDAgwCDAgwCDAAAIMAgwIMAgwIMCAAAMCDAIMCDAgwIAAgwADAgwIMCDAIMCAAIMAAwgwCDAgwCDAgAADAgwIMAgwIMCAAAMCDAIMCDAgwIAAgwADAgwCDCDAIMCAAIMAAwIMCDAgwCDAgAADAgwIMAgwIMCAAAMCDAIMCDAIMIAAgwADAgwCDAgwIMCAAIMAAwIMCDAgwCDAgAADAgwIMAgww1pTWpZSSs45zrZtO/19OKTk6ggwIMA8XEqn7MbfTilOO5dKgAEB5jHtXa6m93eGVViAAQHm3vje0t5v5SDCAgwIMP9b+C4l7mESFmBAgLm9vjnutxmEBRgQ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"
-                    />
-                  </defs>
-                </svg>
-              </span>
-              <p>Pipedrive</p>
+              <img
+                src="./assets/images/svg/piperdrive_icon.svg"
+                alt="piperdrive-icon"
+              />
+              <p class="mb-0 fw-bold fs_xmd lh_120 text-white">Pipedrive</p>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-xl-0">
+            <div
+              class="card_one gap-3 d-flex justify-content-center align-items-center"
+            >
+              <img
+                src="./assets/images/svg/hubspot_icon.svg"
+                alt="hubspot-icon"
+              />
+              <p class="mb-0 fw-bold fs_xmd lh_120 text-white">Hubspot</p>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 col-xl-2 mt-3 mt-md-0 p-xl-0">
+            <div
+              class="card_one gap-3 d-flex justify-content-center align-items-center"
+            >
+              <img src="./assets/images/svg/sfdc_icon.svg" alt="sfdc-icon" />
+              <p class="mb-0 fw-bold fs_xmd lh_120 text-white">SFDC</p>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 col-xl-2 mt-3 mt-lg-0 p-xl-0">
+            <div
+              class="card_one gap-3 d-flex justify-content-center align-items-center"
+            >
+              <img
+                src="./assets/images/svg/outreach_icon.svg"
+                alt="outreach-icon"
+              />
+              <p class="mb-0 fw-bold fs_xmd lh_120 text-white">Outreach</p>
+            </div>
+          </div>
+          <div
+            class="col-6 col-md-4 col-lg-3 col-xl-2 mt-3 mt-lg-5 mt-xl-0 p-xl-0"
+          >
+            <div
+              class="card_one gap-3 d-flex justify-content-center align-items-center"
+            >
+              <img
+                src="./assets/images/svg/salessoft_icon.svg"
+                alt="salessoft-icon"
+              />
+              <p class="mb-0 fw-bold fs_xmd lh_120 text-white">Salesloft</p>
+            </div>
+          </div>
+          <div
+            class="col-6 col-md-4 col-lg-3 col-xl-2 mt-3 mt-lg-5 mt-xl-0 p-0"
+          >
+            <div
+              class="card_one gap-3 d-flex justify-content-center align-items-center"
+            >
+              <img
+                src="./assets/images/svg/monday_icon.svg"
+                alt="monday-icon"
+              />
+              <p class="mb-0 fw-bold fs_xmd lh_120 text-white">Pipedrive</p>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mt-3 mt-lg-4 pt-lg-1">
+          <a href="" class="fw-bold fs_lg lh_120 text-white mt-md-3"
+            >+25 other GTM systems</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-------------------Brands----------------------------->
+    <section>
+      <div class="container">
+        <div class="card_brands">
+          <h2 class="fw-bold text-black text-center lh_130 fs_3xl mb-1">
+            Brands That Trust Us
+          </h2>
+          <div class="row justify-content-center mt-md-4 pt-3">
+            <div class="col-md-6 col-lg-4">
+              <div
+                class="card_that d-flex justify-content-center align-items-center"
+              >
+                <img
+                  src="./assets/images/svg/brands_icons_m.svg"
+                  alt="brands-icon-one"
+                />
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mt-3 mt-md-0">
+              <div
+                class="card_that d-flex justify-content-center align-items-center"
+              >
+                <img
+                  src="./assets/images/svg/brands_icon_cultivado.svg"
+                  alt="brands-icon-cultivado"
+                />
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mt-3 mt-lg-0">
+              <div
+                class="card_that d-flex justify-content-center align-items-center"
+              >
+                <img
+                  src="./assets/images/svg/brands_icon_sos.svg"
+                  alt="brands-icon-sos"
+                />
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+    <!-------------------Footer----------------------------->
+    <footer>
+      <div class="container space_footer">
+        <div class="row">
+          <div class="col-md-6 col-xl-8">
+            <h2 class="fw-bold text-white fs_3xl lh_130 mxaw_stay mb-2">
+              Stay in the Know
+            </h2>
+            <p class="mb-0 fw-semibold fs_lg text-white lh_120 mt-2 mt-md-4">
+              Join the waiting list
+            </p>
+            <div class="d-xl-flex align-items-center">
+              <form
+                id="myForm"
+                action="#"
+                method="post"
+                class="d-flex flex-column justify-content-center justify-content-md-start align-items-md-start align-items-center mt-3"
+              >
+                <div class="d-flex align-items-center form_border form_space">
+                  <input
+                    type="email"
+                    class="bg-transparent w-100 ps-3 border-0 form_txt"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your business email"
+                    required
+                  />
+                </div>
+              </form>
+              <button
+                type="submit"
+                class="sign_bttn fw-normal fs_sm text-white lh_130"
+              >
+                Sign Up
+              </button>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-4 mt-4 mt-md-0">
+            <ul class="mb-0 ms-0 ps-0">
+              <li class="fw-semibold fs_lg lh_120 text-white">Follow Us</li>
+              <li class="mt-md-2 pt-1">
+                <a
+                  href="https://in.linkedin.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="./assets/images/svg/footer_icon_linkdin.svg"
+                    alt="lindin-icon"
+                  />
+                </a>
+              </li>
+            </ul>
+            <div class="mt-3 mt-md-4 pt-2">
+              <p class="mb-0 fw-semibold fs_lg lh_120 text-white">Backed by</p>
+              <div
+                class="space_card row justify-content-center justify-content-md-start"
+              >
+                <div
+                  class="col-6 col-lg-3 justify-content-center justify-content-md-start align-items-md-start align-items-center d-flex"
+                >
+                  <div class="card_google">
+                    <img
+                      src="./assets/images/svg/footer_icon_google.svg"
+                      alt="google-icon"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="col-6 col-lg-4 justify-content-center justify-content-md-start align-items-md-start align-items-center d-flex"
+                >
+                  <div class="card_micro">
+                    <img
+                      src="./assets/images/svg/footer_icon_microsoft.svg"
+                      alt="microsoft-icon"
+                    />
+                  </div>
+                </div>
+                <div class="col-6 col-lg-4 mt-4 mt-lg-0">
+                  <div class="card_aws">
+                    <img
+                      src="./assets/images/svg/footer_icon_aws.svg"
+                      alt="aws-icon"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer_line"></div>
+      <div>
+        <p
+          class="fw-normal fs_md clr_offgrey lh_120 mb-0 py-3 text-center"
+        >
+          © All Rights Reserved <span id="currentYear"></span> | Mintel AI
+        </p>
+      </div>
+    </footer>
     <!---------------Bootstrap-script----------------------->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script>
+      /***year-function*****/
+      document.getElementById("currentYear").innerText =
+        new Date().getFullYear();
+    </script>
+    <!---------Form Validation-------------->
+    <script>
+      document
+        .getElementById("myForm")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
+
+          // Check if email is empty
+          if (document.getElementById("email").value.trim() === "") {
+            document.getElementById("message").innerText =
+              "Please fill out the email field.";
+          } else {
+            // Clear email field
+            document.getElementById("email").value = "";
+
+            // Clear any displayed message
+            document.getElementById("message").innerText = "";
+          }
+        });
+    </script>
   </body>
 </html>
