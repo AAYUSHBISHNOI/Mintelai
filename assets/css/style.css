@@ -6,8 +6,8 @@
   font-family: "Proxim";
   src: url("../fonts/Fontspring-DEMO-proximanova-regular.otf");
 }
-body,
-html {
+html,
+body {
   font-family: "Proxim";
   background-color: #000000;
 }
