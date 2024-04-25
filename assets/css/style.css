@@ -80,11 +80,11 @@ body {
   right: -5%;
 }
 .space_did {
-  margin: 80px auto 148px auto;
+  margin: 80px auto 128px auto;
 }
 .row_height {
   margin: 60px 70px 0 70px !important;
-  min-height: 250px;
+  min-height: 300px;
 }
 .card_did {
   width: 100%;
@@ -102,28 +102,22 @@ body {
 .card_did:hover {
   padding: 32px;
   font-size: 26px;
-  height: 247px;
+  width: 363px;
+  height: 296px;
+  min-height: 239px;
+  padding: 32px 14px 32px 14px;
+  border-radius: 12px;
   line-height: 90%;
   border: 1px solid #055448;
-  transform: scaleY(1.2);
   background-color: #011210;
   box-shadow: 0px 0px 18.5px 0px #0bb89d4d;
-}
-.card_icon_did {
-  width: 62px !important;
-  height: 62px !important;
-  transition: all 350ms linear;
-}
+} 
 .card_did:hover .card_icon_did rect {
   fill-opacity: 1;
 }
 .card_did:hover .card_icon_did path {
   fill: white;
-}
-.card_did:hover .card_icon_did rect {
-  width: 63px !important;
-  height: 60px !important;
-}
+} 
 /*---------------------Prospecting-----------------------------*/
 .card_pros {
   width: 100%;
