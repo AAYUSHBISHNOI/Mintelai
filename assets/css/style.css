@@ -44,12 +44,11 @@ body {
   height: 36px;
   margin: 31px 0 0 90px;
 }
-.mxw_hdr {
+.mxw_hero {
   max-width: 854px;
 }
 .space_header {
-  margin-top: 93px;
-  margin-bottom: 120px;
+  margin: 93px auto 120px auto;
 }
 .btn_erly {
   transition: all 350ms linear;
@@ -71,7 +70,7 @@ body {
   top: 70%;
   left: -5%;
 }
-.hero_main_img {
+.hero_img {
   width: 40%;
 }
 /*-----------------------------------Did-You-Know--------------------------------------*/
@@ -111,13 +110,13 @@ body {
   border: 1px solid #055448;
   background-color: #011210;
   box-shadow: 0px 0px 18.5px 0px #0bb89d4d;
-} 
+}
 .card_did:hover .card_icon_did rect {
   fill-opacity: 1;
 }
 .card_did:hover .card_icon_did path {
   fill: white;
-} 
+}
 /*---------------------Prospecting-----------------------------*/
 .card_pros {
   width: 100%;
@@ -148,22 +147,21 @@ body {
   left: 66%;
   top: 20%;
 }
-.pros_icon_one {
+.pros_icon_m {
   width: 166px;
   height: 120px;
 }
-.pros_icon_two {
+.pros_icon_people {
   width: 102px;
   height: 120px;
 }
-.pros_icon_three {
+.pros_icon_hand {
   width: 97px;
   height: 115px;
 }
 /*------------------------------------COMPATIBLE-------------------------------------*/
 .space_compatible {
-  margin-top: 146px;
-  margin-bottom: 142px;
+  margin: 146px auto 142px auto;
 }
 .linkdin_icon {
   width: 41px;
@@ -221,8 +219,7 @@ body {
   max-width: 706px;
 }
 .space_one {
-  margin-top: 142px;
-  margin-bottom: 100px;
+  margin: 142px auto 100px auto;
 }
 .card_one {
   width: 170px;
@@ -283,8 +280,7 @@ body {
   outline: none !important;
 }
 .space_footer {
-  margin-top: 100px;
-  margin-bottom: 60px;
+  margin: 100px auto 60px auto;
 }
 .space_card {
   margin-top: 15px;
@@ -366,15 +362,15 @@ body {
   .card_pros {
     padding: 80px 0px;
   }
-  .pros_icon_one {
+  .pros_icon_m {
     width: 80px;
     height: 80px;
   }
-  .pros_icon_three {
+  .pros_icon_hand {
     width: 80px;
     height: 80px;
   }
-  .pros_icon_two {
+  .pros_icon_people {
     width: 80px;
     height: 80px;
   }
@@ -395,9 +391,11 @@ body {
   }
 }
 @media (max-width: 1023.98px) {
+  .space_footer {
+    margin: 80px auto 60px auto;
+  }
   .space_one {
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin: 80px auto 80px auto;
   }
   .card_brands {
     max-width: 740px;
@@ -423,8 +421,7 @@ body {
     height: 53px;
   }
   .space_compatible {
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin: 80px auto 80px auto;
   }
   .linkdin_icon {
     width: 31px;
@@ -433,18 +430,6 @@ body {
   .gap_icon {
     margin-top: 10px;
     gap: 60px;
-  }
-  .pros_icon_one {
-    width: 80px;
-    height: 80px;
-  }
-  .pros_icon_three {
-    width: 80px;
-    height: 80px;
-  }
-  .pros_icon_two {
-    width: 80px;
-    height: 80px;
   }
   .card_pros {
     width: 100%;
@@ -457,7 +442,7 @@ body {
   }
   .space_did {
     margin: 80px auto 82px auto;
-  } 
+  }
   .elps_right_hdr {
     right: 0%;
   }
@@ -465,8 +450,7 @@ body {
     margin-top: 14px;
   }
   .space_header {
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin: 80px auto 80px auto;
   }
   .nav_logo {
     width: 150px;
@@ -520,14 +504,15 @@ body {
     height: 30px;
   }
   .space_header {
-    margin-top: 70px;
-    margin-bottom: 70px;
+    margin: 70px auto 70px auto;
   }
 }
 @media (max-width: 575.98px) {
+  .space_footer {
+    margin: 60px auto 60px auto;
+  }
   .space_one {
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin: 60px auto 60px auto;
   }
   .row_height {
     min-height: 500px;
@@ -540,8 +525,7 @@ body {
     max-width: 320px;
   }
   .space_compatible {
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin: 60px auto 60px auto;
   }
   .linkdin_icon {
     width: 31px;
@@ -563,7 +547,7 @@ body {
     height: 239px;
     min-height: 250px;
     padding: 32px 51px;
-  } 
+  }
   .space_row {
     margin-top: 20px;
   }
@@ -588,8 +572,7 @@ body {
     margin-top: 10px;
   }
   .space_header {
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin: 60px auto 60px auto;
   }
   .btn_erly {
     padding: 12px 21px;
