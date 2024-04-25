@@ -457,11 +457,7 @@ body {
   }
   .space_did {
     margin: 80px auto 82px auto;
-  }
-  .card_did:hover {
-    margin-top: 24px;
-    margin-bottom: 20px;
-  }
+  } 
   .elps_right_hdr {
     right: 0%;
   }
@@ -567,11 +563,7 @@ body {
     height: 239px;
     min-height: 250px;
     padding: 32px 51px;
-  }
-  .card_did:hover {
-    margin-top: 30px;
-    margin-bottom: 30px;
-  }
+  } 
   .space_row {
     margin-top: 20px;
   }
